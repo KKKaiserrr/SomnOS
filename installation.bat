@@ -75,11 +75,18 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
     if not exist "\SomnOS\core\" mkdir "\SomnOS\core\"
     if not exist "\SomnOS\data\" mkdir "\SomnOS\data\"
     if not exist "\SomnOS\storage\" mkdir "\SomnOS\storage\"
+    if not exist "\SomnOS\update\" mkdir "\SomnOS\update\"
     :: Core Directory Install ::
     if not exist "\SomnOS\core\core\" mkdir "\SomnOS\core\core\"
     if not exist "\SomnOS\core\process\" mkdir "\SomnOS\core\process\"
     if not exist "\SomnOS\core\graphics\" mkdir "\SomnOS\core\graphics\"
-    if not exist "\SomnOS\core\\"
+    if not exist "\SomnOS\core\backups\" mkdir "\SomnOS\core\backups\"
+    :: Core Data Install ::
+    if not exist "\SomnOS\data\userinfo\" mkdir "\SomnOS\data\userinfo\"
+    if not exist "\SomnOS\data\version\" mkdir "\SomnOS\data\version\"
+    if not exist "\SomnOS\date\\" mkdir "\SomnOS\data\"
+
+
     echo.
 
     
