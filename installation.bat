@@ -84,8 +84,10 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
     :: Core Data Install ::
     if not exist "\SomnOS\data\userinfo\" mkdir "\SomnOS\data\userinfo\"
     if not exist "\SomnOS\data\version\" mkdir "\SomnOS\data\version\"
-    if not exist "\SomnOS\date\\" mkdir "\SomnOS\data\"
-
+    if not exist "\SomnOS\data\updatehistory\" mkdir "\SomnOS\data\updatehistory\"
+    if not exist "\SomnOS\data\core\" mkdir "\SomnOS\data\core"
+    if not exist "\SomnOS\data\theme\" mkdir "\SomnOS\data\theme\"
+    if not exist "\SomnOS\data\"
 
     echo.
 
