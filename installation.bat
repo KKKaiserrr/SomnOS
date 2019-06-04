@@ -29,7 +29,7 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
 	call :ColorText 01 "--------------------------"
     echo.
     call :ColorText 0F "         ---------------------------------------------"
-    call :ColorText 80 "TEAM-SOMNUS"
+    call :ColorText 03 "TEAM-SOMNUS"
     call :ColorText 0F "---------------------------------------------"
     echo.
     call :ColorText 0F "         --------------------------------------------"
@@ -58,7 +58,7 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
 	call :ColorText 01 "--------------------------"
     echo.
     call :ColorText 0F "         ---------------------------------------------"
-    call :ColorText 80 "TEAM  SOMNUS"
+    call :ColorText 03 "TEAM  SOMNUS"
     call :ColorText 0F "---------------------------------------------"
     echo.
     call :ColorText 0F "         ---------------------------------------------"
@@ -84,13 +84,22 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
     :: Core Data Install ::
     if not exist "\SomnOS\data\userinfo\" mkdir "\SomnOS\data\userinfo\"
     if not exist "\SomnOS\data\version\" mkdir "\SomnOS\data\version\"
-    if not exist "\SomnOS\data\updatehistory\" mkdir "\SomnOS\data\updatehistory\"
-    if not exist "\SomnOS\data\core\" mkdir "\SomnOS\data\core"
+    if not exist "\SomnOS\data\handler\" mkdir "\SomnOS\data\uninstaller\"
+    if not exist "\SomnOS\data\network\" mkdir "\SomnOS\data\network\"
     if not exist "\SomnOS\data\theme\" mkdir "\SomnOS\data\theme\"
-    if not exist "\SomnOS\data\"
+    if not exist "\SomnOS\data\addons\" mkdir "\SomnOS\data\addons\"
+    if not exist "\SomnOS\data\user\" mkdir "\SomnOS\data\user\"
+    if not exist "\SomnOS\data\core\" mkdir "\SomnOS\data\core\"
+    :: Core Storage Install :: 
+    if not exist "\SomnOS\storage\update\" mkdir "\SomnOS\storage\update\"
+    if not exist "\SomnOS\storage\backup\" mkdir "\SomnOS\storage\backup\"
+    if not exist "\SomnOS\storage\user\" mkdir "\SomnOS\storage\user"
+    if not exist "\SomnOS\storage\theme\" mkdir "\SomnOS\storage\theme\"
+    if not exist "\SomnOS\storage\userstorage\" mkdir "\SomnOS\storage\userstorage\"
+    if not exist "\SomnOS\storage\core\" mkdir "\SomnOS\storage\core\"
+    if not exist "\SomnOS\storage\packages\" mkdir "\SomnOS\storage\packages\"
 
-    echo.
 
-    
+
 echo.
 pause 
