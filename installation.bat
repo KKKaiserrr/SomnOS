@@ -76,11 +76,13 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
     if not exist "\SomnOS\data\" mkdir "\SomnOS\data\"
     if not exist "\SomnOS\storage\" mkdir "\SomnOS\storage\"
     if not exist "\SomnOS\update\" mkdir "\SomnOS\update\"
+
     :: Core Directory Install ::
-    if not exist "\SomnOS\core\core\" mkdir "\SomnOS\core\core\"
     if not exist "\SomnOS\core\process\" mkdir "\SomnOS\core\process\"
     if not exist "\SomnOS\core\graphics\" mkdir "\SomnOS\core\graphics\"
     if not exist "\SomnOS\core\backups\" mkdir "\SomnOS\core\backups\"
+    if not exist "\SomnOS\core\core\" mkdir "\SomnOS\core\core\"
+
     :: Core Data Install ::
     if not exist "\SomnOS\data\userinfo\" mkdir "\SomnOS\data\userinfo\"
     if not exist "\SomnOS\data\version\" mkdir "\SomnOS\data\version\"
@@ -90,14 +92,20 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
     if not exist "\SomnOS\data\addons\" mkdir "\SomnOS\data\addons\"
     if not exist "\SomnOS\data\user\" mkdir "\SomnOS\data\user\"
     if not exist "\SomnOS\data\core\" mkdir "\SomnOS\data\core\"
+
     :: Core Storage Install :: 
     if not exist "\SomnOS\storage\update\" mkdir "\SomnOS\storage\update\"
     if not exist "\SomnOS\storage\backup\" mkdir "\SomnOS\storage\backup\"
     if not exist "\SomnOS\storage\user\" mkdir "\SomnOS\storage\user"
     if not exist "\SomnOS\storage\theme\" mkdir "\SomnOS\storage\theme\"
     if not exist "\SomnOS\storage\userstorage\" mkdir "\SomnOS\storage\userstorage\"
-    if not exist "\SomnOS\storage\core\" mkdir "\SomnOS\storage\core\"
     if not exist "\SomnOS\storage\packages\" mkdir "\SomnOS\storage\packages\"
+	if not exist "\SomnOS\storage\personalfiles\" mkdir "\SomnOS\storage\personalfiles\"
+	if not exist "\SomnOS\storage\core\" mkdir "\SomnOS\storage\core\"
+
+	:: Core Update Install ::
+	if not exist "\SomnOS\update\"
+
 
 
 
