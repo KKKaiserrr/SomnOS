@@ -104,7 +104,7 @@ title [ SOMNUS ][ TOOL INSTALLATION ]
 	if not exist "\SomnOS\storage\core\" mkdir "\SomnOS\storage\core\"
 
 	:: Core Update Install ::
-	if not exist "\SomnOS\update\"
+	if not exist "\SomnOS\update\core\" mkdir "\SomnOS\update\core\"
 
 
 
